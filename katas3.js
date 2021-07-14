@@ -40,7 +40,7 @@ function kata4() {
 
 function kata5() {
     resultado = []
-    for(n=-25; n< 25; n++)
+    for(n=25; n >= -25; n--)
     if((n % 2) != 0){
     resultado.push(n)
     }
